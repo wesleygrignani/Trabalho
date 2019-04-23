@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".tela_comprar" android:label="@string/label_comprar"></activity>
+        <activity android:name=".tela_vender" android:label="@string/label_vender"></activity>
     </application>
 
 </manifest>

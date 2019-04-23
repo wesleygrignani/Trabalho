@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Trabalho</string>
+    <string name="label_comprar">Compras</string>
+    <string name="label_vender">Vendas</string>
 </resources>

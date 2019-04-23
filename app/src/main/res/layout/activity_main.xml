@@ -26,7 +26,8 @@
         android:text="Vender"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:onClick="abrirTelaVendas"/>
 
     <Button
         android:id="@+id/button2"
@@ -39,7 +40,8 @@
         android:text="Comprar"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:onClick="abrirTelaCompras"/>
 
 
 
