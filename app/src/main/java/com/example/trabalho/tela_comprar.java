@@ -9,7 +9,7 @@ public class tela_comprar extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstaceState){
         super.onCreate(savedInstaceState);
-
         setContentView(R.layout.activity_comprar);
+
     }
 }
