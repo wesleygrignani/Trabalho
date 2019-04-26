@@ -7,6 +7,11 @@ public class Produto {
     float preco_unitario;
     String descricao;
 
+    public Produto(String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
+    }
+
     public String getNome() {
         return nome;
     }

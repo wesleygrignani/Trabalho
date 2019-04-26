@@ -19,26 +19,26 @@ public class tela_vender extends AppCompatActivity {
     }
 
     public void salvarInformacoes(View view){
-        Produto p = new Produto();
-
-        ArrayList<Produto> lista = new ArrayList<>();
-
-
-        EditText e1 = (EditText) findViewById(R.id.text_nome);
-        p.setNome(e1.getText().toString());
-
-        e1 = (EditText) findViewById(R.id.text_preco);
-        p.setPreco_unitario(Float.valueOf(e1.getText().toString()));
-
-        e1 = (EditText) findViewById(R.id.text_quantidade);
-        p.setQuantidade(Integer.valueOf(e1.getText().toString()));
-
-        e1 = (EditText) findViewById(R.id.text_descricao);
-        p.setDescricao(e1.getText().toString());
-
-
-        TextView e2 = (TextView) findViewById(R.id.textView);
-        e2.setText(p.getNome() +  Float.toString(p.getPreco_unitario()));
+//        Produto p = new Produto();
+//
+//        ArrayList<Produto> lista = new ArrayList<>();
+//
+//
+//        EditText e1 = (EditText) findViewById(R.id.text_nome);
+//        p.setNome(e1.getText().toString());
+//
+//        e1 = (EditText) findViewById(R.id.text_preco);
+//        p.setPreco_unitario(Float.valueOf(e1.getText().toString()));
+//
+//        e1 = (EditText) findViewById(R.id.text_quantidade);
+//        p.setQuantidade(Integer.valueOf(e1.getText().toString()));
+//
+//        e1 = (EditText) findViewById(R.id.text_descricao);
+//        p.setDescricao(e1.getText().toString());
+//
+//
+//        TextView e2 = (TextView) findViewById(R.id.textView);
+//        e2.setText(p.getNome() +  Float.toString(p.getPreco_unitario()));
 
     }
 }

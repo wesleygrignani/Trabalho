@@ -15,7 +15,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/p" />
+        app:srcCompat="@drawable/p"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button"
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="368dp"
         android:onClick="abrirTelaVendas"
-        android:text="Vender"
+        android:text="@string/vender"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -38,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="312dp"
         android:onClick="abrirTelaCompras"
-        android:text="Comprar"
+        android:text="@string/comprar"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.5"
