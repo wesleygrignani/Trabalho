@@ -5,20 +5,34 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class tela_vender extends AppCompatActivity {
+
+    EditText editCodigo,editNome,editEmail,editTelefone;
+    ListView listViewClientes;
+
     @Override
+
     protected void onCreate(@Nullable Bundle savedInstaceState){
 
         super.onCreate(savedInstaceState);
         setContentView(R.layout.activity_vender);
 
-    }
+        editCodigo = (EditText) findViewById(R.id.edit_codigo);
+        editNome = (EditText)findViewById(R.id.edit_nome);
+        editEmail = (EditText)findViewById(R.id.edit_email);
+        editTelefone = (EditText)findViewById(R.id.edit_telefone);
 
+        listViewClientes = (ListView)findViewById(R.id.listview_clientes);
+
+    }
+    /*
     public void salvarInformacoes(View view){
+
 //        Produto p = new Produto();
 //
 //        ArrayList<Produto> lista = new ArrayList<>();
@@ -40,5 +54,7 @@ public class tela_vender extends AppCompatActivity {
 //        TextView e2 = (TextView) findViewById(R.id.textView);
 //        e2.setText(p.getNome() +  Float.toString(p.getPreco_unitario()));
 
-    }
+    }*/
+
+
 }
